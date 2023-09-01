@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-text: #e6e8e3;
+  --primary-color: #004994;
+  --color-link: #00ffff;
+}
+
+body {
+  background: rgb(54, 123, 204);
+  background: linear-gradient(
+    90deg,
+    rgba(54, 123, 204, 1) 0%,
+    rgba(72, 139, 223, 1) 35%,
+    rgba(18, 90, 167, 1) 100%
+  );
+
+  font-family: "Segoe UI", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.main__content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.2rem 0;
+}
