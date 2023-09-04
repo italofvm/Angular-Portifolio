@@ -1,0 +1,18 @@
+.section-skills__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-skills__title h2 {
+  display: flex;
+  justify-content: center;
+  color: var(--color-text);
+  font-size: 2rem;
+}
+
+.skills-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

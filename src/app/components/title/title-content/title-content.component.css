@@ -5,15 +5,15 @@
 }
 
 .title-content h1 {
-  width: 60%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   text-align: center;
   color: var(--color-text);
 }
 
-.title-content h1 span {
+.title-content h2 {
   color: #012346;
+  font-size: 2.5rem;
 }
 
 .title-content ul {
