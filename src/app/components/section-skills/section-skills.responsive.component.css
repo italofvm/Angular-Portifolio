@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+  .section-skills__title h2 {
+    font-size: 1.5rem;
+  }
+  .skills-card {
+    flex-direction: column;
+  }
+}

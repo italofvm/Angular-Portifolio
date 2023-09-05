@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+  .section-about__container {
+    height: 40vh;
+  }
+  .section-about__title h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .section-about__subtitle {
+    width: 90%;
+    font-style: oblique;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .section-about__container {
+    height: 50vh;
+  }
+  .section-about__subtitle {
+    width: 95%;
+    font-style: oblique;
+    font-size: 1.1rem;
+  }
+}

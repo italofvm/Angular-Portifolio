@@ -1,0 +1,25 @@
+/*Tables*/
+
+@media (max-width: 768px) {
+  .menu-bar__content {
+    flex-direction: column;
+  }
+}
+
+.menu-bar__items ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu-bar__items ul li {
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+
+.menu-bar__items ul li a {
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-bar__items ul li a:hover {
+  color: var(--color-link);
+}
