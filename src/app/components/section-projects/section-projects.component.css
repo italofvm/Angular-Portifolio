@@ -1,0 +1,19 @@
+.section-projects__container {
+  background: var(--primary-color);
+
+  display: flex;
+  justify-content: center;
+}
+
+.section-projects__title {
+  text-align: center;
+  color: var(--color-text);
+  margin: 1rem 0;
+}
+
+.projects-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}

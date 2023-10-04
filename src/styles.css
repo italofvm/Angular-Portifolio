@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --color-text: #e6e8e3;
   --color-text--segundary: #939491;

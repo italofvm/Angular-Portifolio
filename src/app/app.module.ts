@@ -11,6 +11,8 @@ import { TitleContentComponent } from './components/title/title-content/title-co
 import { SectionAboutComponent } from './components/section-about/section-about.component';
 import { SectionSkillsComponent } from './components/section-skills/section-skills.component';
 import { SkillsTitleComponent } from './components/section-skills/skills-title/skills-title.component';
+import { SectionProjectsComponent } from './components/section-projects/section-projects.component';
+import { ProjectsCardComponent } from './components/section-projects/projects-card/projects-card.component';
 
 @NgModule({
   declarations: [
@@ -22,13 +24,12 @@ import { SkillsTitleComponent } from './components/section-skills/skills-title/s
     TitleContentComponent,
     SectionAboutComponent,
     SectionSkillsComponent,
-    SkillsTitleComponent
+    SkillsTitleComponent,
+    SectionProjectsComponent,
+    ProjectsCardComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

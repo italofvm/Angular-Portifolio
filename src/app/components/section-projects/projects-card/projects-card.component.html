@@ -1,0 +1,16 @@
+<div class="projects-card__container">
+  <div class="projects-card__descript">
+    <h2>{{projectsTitle}}</h2>
+    <p><strong>Tecnologias:</strong> {{projectsTechnology}}</p>
+    <p></p>
+  </div>
+  <div class="projects-card__content main__content">
+    <div class="projects-card__photo">
+      <img [src]="[projectsPhoto]" alt="">
+    </div>
+    <div class="projects-card__btn">
+      <a [href]="[projectsLinkRepo]" target="_blank"><button>Repositório</button></a>
+      <a [href]="[projectsLinkDemo]" target="_blank"><button>Ver Demo</button></a>
+    </div>
+  </div>
+</div>
