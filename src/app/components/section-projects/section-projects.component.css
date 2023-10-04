@@ -5,7 +5,8 @@
   justify-content: center;
 }
 
-.section-projects__title {
+.section-projects__title h2 {
+  font-size: 2rem;
   text-align: center;
   color: var(--color-text);
   margin: 1rem 0;

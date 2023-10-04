@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+  .section-projects__title h2 {
+    font-size: 1.5rem;
+  }
+  .projects-card {
+    flex-direction: column;
+  }
+}

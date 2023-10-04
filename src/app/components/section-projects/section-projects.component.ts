@@ -3,7 +3,10 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-section-projects',
   templateUrl: './section-projects.component.html',
-  styleUrls: ['./section-projects.component.css'],
+  styleUrls: [
+    './section-projects.component.css',
+    './section-projects.responsive.component.css',
+  ],
 })
 export class SectionProjectsComponent {
   @Input()

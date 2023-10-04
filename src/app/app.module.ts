@@ -13,6 +13,7 @@ import { SectionSkillsComponent } from './components/section-skills/section-skil
 import { SkillsTitleComponent } from './components/section-skills/skills-title/skills-title.component';
 import { SectionProjectsComponent } from './components/section-projects/section-projects.component';
 import { ProjectsCardComponent } from './components/section-projects/projects-card/projects-card.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ProjectsCardComponent } from './components/section-projects/projects-ca
     SkillsTitleComponent,
     SectionProjectsComponent,
     ProjectsCardComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
