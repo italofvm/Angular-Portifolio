@@ -1,7 +1,7 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { NgModule, Component } from '@angular/core';
 import { SectionAboutComponent } from './components/section-about/section-about.component';
 import { SectionSkillsComponent } from './components/section-skills/section-skills.component';
+import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [];
 
