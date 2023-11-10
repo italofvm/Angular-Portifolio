@@ -1,5 +1,7 @@
 .menu-bar__container {
   background: var(--primary-color);
+  position: fixed;
+  width: 100%;
 }
 
 .menu-bar__content {
