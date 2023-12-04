@@ -9,4 +9,14 @@
   .projects-card__photo img {
     width: 75%;
   }
+  .projects-card__photo {
+    width: 100%;
+  }
+
+  .projects-card__btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

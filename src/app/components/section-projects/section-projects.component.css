@@ -1,6 +1,5 @@
 .section-projects__container {
   background: var(--primary-color);
-
   display: flex;
   justify-content: center;
 }
