@@ -56,3 +56,9 @@ a {
   transform: rotate(-90deg);
   border: 0.2rem solid #000;
 }
+
+@media (max-width: 600px) {
+  .back__to__top {
+    display: none;
+  }
+}
