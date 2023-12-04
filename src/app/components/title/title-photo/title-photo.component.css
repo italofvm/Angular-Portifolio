@@ -1,5 +1,6 @@
 .title-photo__container {
   margin-top: 1.5rem;
+  padding: 2rem;
 }
 
 .title-photo__content {
@@ -8,10 +9,16 @@
 }
 
 .title-photo__container img {
-  width: 30%;
+  width: 100%;
   border-radius: 50%;
   border: 0.5rem solid var(--primary-color);
   -webkit-box-shadow: 3px 14px 21px -12px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 3px 14px 21px -12px rgba(0, 0, 0, 0.75);
   box-shadow: 3px 14px 21px -12px rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 600px) {
+  .title-photo__container img {
+    width: 50%;
+  }
 }

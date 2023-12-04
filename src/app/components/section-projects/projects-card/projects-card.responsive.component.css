@@ -4,3 +4,9 @@
     margin: 0.5rem 0;
   }
 }
+
+@media (max-width: 600px) {
+  .projects-card__photo img {
+    width: 75%;
+  }
+}

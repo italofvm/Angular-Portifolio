@@ -23,3 +23,13 @@
 .menu-bar__items ul li a:hover {
   color: var(--color-link);
 }
+
+@media (max-width: 600px) {
+  .menu-bar__container {
+    background: var(--primary-color);
+    position: static;
+  }
+  .menu-bar__title {
+    display: none;
+  }
+}

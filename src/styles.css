@@ -4,6 +4,7 @@
   padding: 0;
   border: none;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -11,19 +12,19 @@ html {
 }
 
 :root {
-  --color-text: #e6e8e3;
+  --color-text: #000;
   --color-text--segundary: #939491;
-  --primary-color: #004994;
-  --color-link: #00ffff;
+  --primary-color: #ededed;
+  --color-link: #b9b9b9;
 }
 
 body {
-  background: rgb(54, 123, 204);
+  background: rgb(237, 237, 237);
   background: linear-gradient(
     90deg,
-    rgba(54, 123, 204, 1) 0%,
-    rgba(72, 139, 223, 1) 35%,
-    rgba(18, 90, 167, 1) 100%
+    rgba(237, 237, 237, 1) 0%,
+    rgba(211, 211, 211, 1) 35%,
+    rgba(185, 185, 185, 1) 100%
   );
 
   font-family: "Segoe UI", sans-serif;
@@ -51,11 +52,7 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  color: #fff;
+  color: #000;
   transform: rotate(-90deg);
-  border: 0.2rem solid #fff;
-}
-
-.back__to__top.scrollTo {
-  behavior: "smooth";
+  border: 0.2rem solid #000;
 }
